@@ -25,21 +25,21 @@ body {
     border: none;
     font-size: 14px;
     height: 42px;
-    border: 1px solid #48db27;
+    border: 1px solid #2786a1;
     letter-spacing: 0.5px;
   }
 .btn {
-    background: #48db27;
+    background: #2786a1;
     color: #fff;
     height: 42px;
     width: 54px;
   }
 .btn:hover {
-    background: #48db27;
+    background: #2786a1;
     color: #fff;
 }
 .logosection li a {
-    color: #48db27;
+    color: #2786a1;
     font-size: 20px;
     text-align: center;
   }
@@ -47,7 +47,7 @@ body {
     display: inline-grid;
     margin-left: 30px;
     font-size: 13px;
-    color: #48db27 !important;
+    color: #2786a1 !important;
   } 
 .badge {
     display: inline-block;
@@ -87,12 +87,12 @@ body {
     font-weight: 700 !important;
   }
 .float-left li a:hover {
-    background: #48db27;
+    background: #2786a1;
     border-radius: 26px;
     transition: 0.9s;
   }
 .topmenu .active {
-    background: #48db27;
+    background: #2786a1;
     border-radius: 30px;
     padding: 2px 10px;
     color: #fff;
@@ -246,7 +246,7 @@ body {
   transition: .3s;
 }
 .category-list-main ul li:hover {
-  background-color: #48db27;
+  background-color: #2786a1;
 }
 .category-list-main ul li:hover>.sidebar-drop{
   visibility: visible;
