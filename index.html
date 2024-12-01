@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feni Express</title>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+	<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+
+</head>
+<body>
+	<div id="navbar">
+		<div class="col-md-12 logosection pb-2 pt-3" style="background: #fff;">
+			<div class="container">
+				<div class="row align-item-center">
+					<div class="col-lg-2 col-md-2 col-8 text-center">
+						<a href="#">
+							<img src="image/logo.jpg" alt="#" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-lg-6 col-md-8 col-12">
+						<form action="">
+							<div class="input-group mb-3">
+								<input type="text" class="form-control" placeholder="Search entire store here..." aria-label="Recipient's username" aria-describedby="basic-addon2" style="box-shadow: none; border: 1px solid #48db27;">
+								<span class="input-group-text btn" id="basic-addon2"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></span>
+							</div>
+						</form>
+					</div>
+					<div class="col-lg-4 col-md-6 col-12 text-right">
+						<li>
+							<a href="#">
+								<i class="fa-solid fa-user"></i>
+							</a>Account
+						</li>
+						<li>
+							<a href="#">
+							<i class="fa-solid fa-heart"></i>
+							</a>Offer
+						</li>
+						<li>
+							<a href="#">
+							<i class="fa-solid fa-cart-shopping"></i>
+							<span class="badge bg-warning">0</span>
+							</a>MyCart
+						</li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--end logo section -->
+
+		<div class="col-md-12 topmenu" style="background: #222;">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-12 col-sm-12 p-2 text-light font-weight-bold text-uppercrase" style="background: #48db27; border-bottom: 1px dashed #585858; border-radius: 10px 10px 0px 0px;">
+						<div>
+							<a href="#" class="text-light">
+							<i class="fa-solid fa-bars"></i>
+							All Category
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-12 col-sm-10 col-12 p-2 font-weight">
+						<div class="float-left">
+							<li>
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-gift"></i>&nbsp;New Arrivals</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-gift"></i>&nbsp;Offers Product</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa-solid fa-gift"></i>&nbsp;Pre-Orders</a>
+							</li>
+							<li class="active">
+								<a href="#"><i class="fa-solid fa-user" style="color: #ffffff;"></i>&nbsp;Seller</a>
+							</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-12 col-sm-10 col-12 p-0">
+					<div class="category-list-main">
+						<ul>
+							<li>
+								<a href="#">Womens & Girls Fashion<span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">Traditional Wear <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											<div class="sidebar-drop">
+												<ul>
+													<li>
+														<a href="#">Shalwar Kameez</a>
+													</li>
+													<li>
+														<a href="#">Sarees</a>
+													</li>
+													<li>
+														<a href="#">Kurtis</a>
+													</li>
+													<li>
+														<a href="#">Party Kameez & Gowns</a>
+													</li>
+													<li>
+														<a href="#">Palazzos & Capris Pa</a>
+													</li>
+													<li>
+														<a href="#">Pants, Palazzos & Ca</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<a href="#">Muslim Wear <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Western Wear <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">INNERWEAR <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">SHOES <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">BAGS <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">WATCHES <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Men's Fashion
+
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">CLOTHING <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											<div class="sidebar-drop">
+												<ul>
+													<li>
+														<a href="#">T-Shirts</a>
+													</li>
+													<li>
+														<a href="#">Jeans</a>
+													</li>
+													<li>
+														<a href="#">Casual Shirts</a>
+													</li>
+													<li>
+														<a href="#">Panjabi</a>
+													</li>
+													<li>
+														<a href="#">Joggers & Sweats</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<a href="#">Watches <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">BAGS <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">MUSLIM WEAR <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Hoodies & Sweatshirts <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Accessories <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Watches, Bags, Jewellery
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+								<div class="sidebar-drop">
+										<ul>
+											<li>
+												<a href="#">Kids Bags <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+												<div class="sidebar-drop">
+													<ul>
+														<li>
+															<a href="#">Backpacks</a>
+														</li>
+														<li>
+															<a href="#">Bags</a>
+														</li>
+														<li>
+															<a href="#">School Bags & Backpack</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a href="#">Laptop Bags & Cases <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+												<div class="sidebar-drop">
+													<ul>
+														<li>
+															<a href="#">Backpacks</a>
+														</li>
+														<li>
+															<a href="#">Briefcases</a>
+														</li>
+														<li>
+															<a href="#">Laptop cases</a>
+														</li>
+														<li>
+															<a href="#">Shoulder & Messenger</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a href="#">Luggage <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+												<div class="sidebar-drop">
+													<ul>
+														<li>
+															<a href="#">Carry-Ons</a>
+														</li>
+														<li>
+															<a href="#">Kids Luggage</a>
+														</li>
+														<li>
+															<a href="#">Luggage Sets</a>
+														</li>
+														<li>
+															<a href="#">Suitcases</a>
+														</li>
+														<li>
+															<a href="#">Travel Duffels</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a href="#">Travel Bags <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+												<div class="sidebar-drop">
+													<ul>
+														<li>
+															<a href="#">Waist Packs</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a href="#">Men's Bags <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+												<div class="sidebar-drop">
+													<ul>
+														<li>
+															<a href="#">Backpacks</a>
+														</li>
+														<li>
+															<a href="#">Business Bags</a>
+														</li>
+														<li>
+															<a href="#">Crossbody Bags</a>
+														</li>
+														<li>
+															<a href="#">Messenger Bags</a>
+														</li>
+														<li>
+															<a href="#">Tote Bags</a>
+														</li>
+														<li>
+															<a href="#">Wallets & Accessorie</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li>
+												<a href="#">Women's Bags <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Men's Watches <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Women's Watches <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Kids Watches <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Women's Jewellery <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Men's Jewellery <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+											<li>
+												<a href="#">Sunglasses <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											</li>
+										</ul>
+									</div>
+							</li>
+							<li>
+								<a href="#">Electronics Devices
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">Smartphones <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Feature Phone <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Tablets <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Cameras <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Trendy Mobile Accessories <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Projectors <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Gaming Console <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Audio <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Wearables <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Laptops <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Desktops <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Electronic Accessories
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a href="#">
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">Audio <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+											<div class="sidebar-drop">
+												<ul>
+													<li>
+														<a href="#">Headphones & Headset</a>
+													</li>
+													<li>
+														<a href="#">Blutooth Speaker</a>
+													</li>
+													<li>
+														<a href="#">Smart Speaker</a>
+													</li>
+													<li>
+														<a href="#">Live Sound & Stage E</a>
+													</li>
+													<li>
+														<a href="#">Wireless Earbuds</a>
+													</li>
+													<li>
+														<a href="#">Portable Players</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+										<li>
+											<a href="#">Wearable <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Gadgets <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Computer Accessories <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Storage <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Pinter <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Camera Accessories <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Sports & Outdoors
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">Exercise & Fitness <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Treadmills <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Exercise Bikes <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Dumbbells <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Cycling <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Boxing & Martial Arts <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Shoes & Clothing <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Outdoor Recreation <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Camping & Hiking <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Team Sports <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Fan Shop <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">Health & Beauty
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+								<div class="sidebar-drop">
+									<ul>
+										<li>
+											<a href="#">Skin Care <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Hair Care <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Makeup <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Fragrances <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Beauty Tools <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Bath & Body <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Personal Care <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Men's Care <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+										<li>
+											<a href="#">Sexual Wellness <span id="navigation" uk-icon="icon: triangle-right;"></span></a>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<a href="#">TV & Home Appliances
+
+								<span id="navigation" uk-icon="icon: triangle-right;"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-12 col-12 pt-2" style="padding: 38px;padding-right: 120px;">
+					<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="image/slide1.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="image/slide2.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="image/slide3.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="image/slide4.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="image/slide5.jpg" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		
+	<center class="category p-3">
+		<strong>Category</strong>
+		<br>
+		<span>Get Your Category Product from Feni Express</span>
+	</center>
+
+	<div class="col-md-12 category">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/1.png" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/2.png" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/3.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/4.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/5.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/6.jpg" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/7.jpg" alt="#" class="img-fluid ige"> 
+							</a>
+						</center>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6 mt-4">
+					<div class="categorys">
+						<center>
+							<a href="#">
+								<img src="image/8.png" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<center class="category p-3">
+		<strong>Recent Products</strong>
+		<br>
+		<span>Get Your Recent Product from Feni Express</span>
+	</center>
+	<br>
+	<div class="col-md-12">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/9.jpg" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">15.6 inch Laptop Sleeve Bag</a>
+							<br>
+							<div class="mt-2">
+								<del>850৳</del>
+								<strong>399৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/10.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">New Classic Black Laptop Bag-Backpack</a>
+							<br>
+							<div class="mt-2">
+								<strong>382৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/11.jpg" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">
+							School Bags For Girls Big Capacity Backpack Shouler Bags 
+							Anti Theft Waterproof Daily Travel Back Pack Ladies Bagpack School Bag</a>
+							<br>
+							<div class="mt-2">
+								<del>1650৳</del>
+								<strong>725৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/12.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">Long-Sleeve T-Shirts Of Red Cotton For Men</a>
+							<br>
+							<div class="mt-2">
+								<del>350৳</del>
+								<strong>280৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/13.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">Full Sleeve T shirts for Men</a>
+							<br>
+							<div class="mt-2">
+								<del>350৳</del>
+								<strong>250৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/14.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">Exclusive Jersy half Sleeve T Shirt For Men - T Shirt</a>
+							<br>
+							<div class="mt-2">
+								<del>200৳</del>
+								<strong>150৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/15.jpg" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">Black matching Tangail Tant Jamdani saree for women ( From Tangail )</a>
+							<br>
+							<div class="mt-2">
+								<del>3500৳</del>
+								<strong>1970৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/16.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">Premium Quality Linen fabrics Comfortable and Stylish wear readymade Nayra cut Shalwar Kameez 3 pice dress for girls</a>
+							<br>
+							<div class="mt-2">
+								<del>1050৳</del>
+								<strong>611৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-6 col-12 mt-4">
+					<div class="bg-white homeproducts p-3">
+						<center>
+							<a href="#">
+								<img src="image/17.webp" alt="#" class="img-fluid ige">
+							</a>
+						</center>
+						<div class="border-top">
+							<br>
+							<a href="#">New exclusive designed Linen Screen Print Poppon 3piece For Stylish Women</a>
+							<br>
+							<div class="mt-2">
+								<del>1399৳</del>
+								<strong>650৳</strong>
+							</div>
+							<div class="mt-4">
+								<div class="row">
+									<div class="col-6">
+										<button>
+											<i class="fa-solid fa-bucket"></i>
+											ADD TO CART
+										</button>
+									</div>
+									<div class="col-6">
+										<button class="bg-warning">
+											<i class="fa-solid fa-bucket"></i>
+											BUY NOW
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br><br><br>
+	<div class="col-md-12 footer pt-5 pb-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-12 text-md-left text-sm-center text-center">
+					<strong>Support us(24/7):</strong>
+					<br>
+					<div class="mt-3">
+						<label>
+							<i class="fa-solid fa-phone"></i>
+							<span></span>
+							+8801855975556
+						</label>
+					</div>
+					<div class="pt-0 mt-3">
+						<img src="image/17.png" class="img-fluid rounded" style="max-height: 150px;" alt="">
+					</div>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-12 text-md-left text-sm-center text-center">
+					<strong>Quick Links</strong>
+					<br>
+					<div class="mt-3"></div>
+					<li>
+						<a href="">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="">Return Policy</a>
+					</li>
+					<li>
+						<a href="">Contact us</a>
+					</li>
+					<li>
+						<a href="">About us</a>
+					</li>
+					<li>
+						<a href="">FAQ</a>
+					</li>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-12 col-12 text-md-left text-sm-center text-center">
+					<br>
+					<div class="mt-3"></div>
+					<li>
+						<a href="">Login</a>
+					</li>
+					<li>
+						<a href="">Registation</a>
+					</li>
+					<li>
+						<a href="">Offers</a>
+					</li>
+				</div>
+				<div class="col-4 col-lg-4 col-md-4 col-sm-12 col-12 text-md-left text-sm-center text-center social">
+					<strong>STAY CONNECTED</strong>
+					<br>
+					<div class="mt-3"></div>
+					<span style="color: gray;">Feni Express LTD</span>
+					<p>Shop no :1028 & 1060 Level: 10 Computer City Center ( Multiplan) New Elephant Road, Dhaka</p>
+					<li>
+						<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa-brands fa-youtube"></i></a>
+					</li>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12 developer">
+		<div class="container">
+			<center>
+				<span>COPYRIGHT © 2024, Feni Express</span>
+				<br>
+				<span>Developed by</span>
+				<a href="https://www.facebook.com/soikat6782" style="text-decoration: none; color: #05c76a; font-weight: bold; font-size: 10px;">Amb Soikat</a>
+			</center>
+		</div>
+	</div>
+	
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/js/all.min.js"></script>
+</body>
+</html>
