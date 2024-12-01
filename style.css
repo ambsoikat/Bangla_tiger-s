@@ -20,7 +20,9 @@ body {
   background-color: #333;
   z-index: 999;
 }
-
+.it {
+  margin: -42px;
+}
 .logosection input {
     border: none;
     font-size: 14px;
